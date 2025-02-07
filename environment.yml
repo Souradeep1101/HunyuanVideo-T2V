@@ -1,0 +1,18 @@
+name: hunyuanvideo-t2v  # Name of your Conda environment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.7
+  - pip
+  - opencv
+  - jupyterlab
+  - matplotlib
+  - pandas
+  - numpy
+  - pip:
+      - torch==2.3.0+cu121
+      - torchvision==0.18.0+cu121
+      - torchaudio==2.3.0+cu121
+      - --extra-index-url https://download.pytorch.org/whl/cu121
+      - scenedetect
