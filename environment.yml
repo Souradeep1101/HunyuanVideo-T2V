@@ -16,3 +16,8 @@ dependencies:
       - torchaudio==2.3.0+cu121
       - --extra-index-url https://download.pytorch.org/whl/cu121
       - scenedetect
+      - datasets
+      - tqdm
+      - transformers
+      - diffusers
+      - accelerate
